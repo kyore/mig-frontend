@@ -1,0 +1,14 @@
+.top-nav .nav-link, .bottom-nav .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.top-nav {
+  background-color: #f8f9fa;
+}
+
+.bottom-nav {
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

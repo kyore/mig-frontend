@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+// Color system
+$blue: #005F7E;
+$turquoise: #00839A;
+$turquoise-2: #00A6B4;
+
+
+$dark-blue: #002855;
+$dark-gray: #A69B95;
+$light-gray: #D7D1CB;
+
+$secondary: $dark-blue;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-padding-x: 3rem;
+
+.navbar-nav {
+  .active {
+    border-bottom: 3px solid $blue;
+  }
+}
+
+.navbar-nav-svg {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-top;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
