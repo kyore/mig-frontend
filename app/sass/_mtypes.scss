@@ -1,0 +1,21 @@
+// Mig Typography
+.mhead {
+  font-weight: 700;
+  color: $blue;
+  text-transform: uppercase;
+
+  &:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: $mborder-length;
+    padding-top: $mborder-padding-top;
+    border-bottom: $mborder-width solid $mborder-color;
+  }
+}
+
+@media (max-width: 992px) {
+  .mhead {
+    font-size: 1.4rem;
+  }
+}

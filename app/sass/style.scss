@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .swiper-container {
+    height: 250px;
+  }
+}
+
 
 .navbar-brand {
   img {
