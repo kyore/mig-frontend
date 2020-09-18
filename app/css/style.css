@@ -1,14 +1,35 @@
-.top-nav .nav-link, .bottom-nav .nav-link {
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
 .top-nav {
+  padding: 0.8rem 3rem;
+  text-transform: uppercase;
   background-color: #f8f9fa;
+}
+.top-nav .nav-link {
+  font-size: 13px;
 }
 
 .bottom-nav {
+  text-transform: uppercase;
+  font-size: 15px;
   background-color: #ffffff;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+}
+.swiper-container img {
+  width: 100%;
+}
+.swiper-container .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #ffffff;
+  opacity: 0.7;
+}
+.swiper-container .swiper-pagination-bullet-active {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
