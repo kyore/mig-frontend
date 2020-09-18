@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import "_fonts";
 @import "_mvariables";
 @import "_mborders.scss";
 @import "_mtypes";
 
-$font-family-sans-serif: 'Roboto', sans-serif;
+
+$font-family-sans-serif: 'DinPro', sans-serif;
 $font-family-base: $font-family-sans-serif;
+$body-bg: $gray-100;
 
 $secondary: $dark-blue;
 
