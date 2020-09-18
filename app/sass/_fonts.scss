@@ -27,3 +27,49 @@
   src: url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.ttf") format("ttf");
   font-weight: 300;
 }
+
+// Custom MIG font icons
+
+@font-face {
+  font-family: 'MigFont';
+  src: url('../fonts/migfont.woff?83778495') format('woff'),
+  url('../fonts/migfont.ttf?83778495') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//noinspection ALL
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "MigFont";
+  font-style: normal;
+  font-weight: normal;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aylal:before { content: '\e800'; }
+.icon-genetiin-osol:before { content: '\e801'; }
+.icon-giingoo:before { content: '\e802'; }
+.icon-indigo:before { content: '\e803'; }
+.icon-joloochiin-genetiin-osol:before { content: '\e804'; }
+.icon-zeeldegchiin-ami-nas:before { content: '\e805'; }

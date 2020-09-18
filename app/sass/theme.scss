@@ -1,8 +1,8 @@
-@import "_fonts";
-@import "_mvariables";
-@import "_mborders.scss";
-@import "_mtypes";
-
+@import "fonts";
+@import "mvariables";
+@import "mborders.scss";
+@import "mtypes";
+@import "icons";
 
 $font-family-sans-serif: 'DinPro', sans-serif;
 $font-family-base: $font-family-sans-serif;
@@ -19,6 +19,7 @@ $navbar-padding-x: 2rem;
     border-bottom: 3px solid $blue;
   }
 }
+
 
 .navbar-nav-svg {
   display: inline-block;
