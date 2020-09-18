@@ -30,25 +30,11 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^=icon-]:before, [class*=" icon-"]:before {
-  font-family: "MigFont";
-  font-style: normal;
-  font-weight: normal;
+.icon {
   display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: 0.2em;
-  /* Font smoothing. That was taken from TWBS */
+  font: normal normal normal 14px/1 "MigFont";
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -104,23 +90,28 @@
     font-size: 1.4rem;
   }
 }
-.icon-primary {
+.btn-icon {
   background-color: #ffffff;
-  cursor: pointer;
-  padding: 15px 5px;
-  border-radius: 20%;
   border: 7px solid #CFCFCF;
+  border-radius: 20%;
+  padding: 30px 20px;
   color: #CFCFCF;
-  font-size: 100px;
 }
-.icon-primary.active {
-  border: 7px solid #005F7E;
+.btn-icon.active {
+  border-color: #005F7E;
   color: #00839A;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
+.btn-icon .icon {
+  font-size: 100px;
+}
 
 @media (max-width: 992px) {
-  .icon-primary {
+  .btn-icon {
+    border-width: 3px;
+    padding: 15px 7px;
+  }
+  .btn-icon .icon {
     font-size: 50px;
   }
 }

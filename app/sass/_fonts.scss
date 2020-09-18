@@ -39,37 +39,35 @@
 }
 
 //noinspection ALL
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "MigFont";
-  font-style: normal;
-  font-weight: normal;
-
+.icon {
   display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-
-  /* Font smoothing. That was taken from TWBS */
+  font: normal normal normal 14px/1 "MigFont";
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-aylal:before { content: '\e800'; }
-.icon-genetiin-osol:before { content: '\e801'; }
-.icon-giingoo:before { content: '\e802'; }
-.icon-indigo:before { content: '\e803'; }
-.icon-joloochiin-genetiin-osol:before { content: '\e804'; }
-.icon-zeeldegchiin-ami-nas:before { content: '\e805'; }
+.icon-aylal:before {
+  content: '\e800';
+}
+
+.icon-genetiin-osol:before {
+  content: '\e801';
+}
+
+.icon-giingoo:before {
+  content: '\e802';
+}
+
+.icon-indigo:before {
+  content: '\e803';
+}
+
+.icon-joloochiin-genetiin-osol:before {
+  content: '\e804';
+}
+
+.icon-zeeldegchiin-ami-nas:before {
+  content: '\e805';
+}
