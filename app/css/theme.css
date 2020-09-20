@@ -89,6 +89,9 @@
   color: #005F7E;
   text-transform: uppercase;
 }
+.mhead.mborder__bottom {
+  text-align: center;
+}
 
 .mbody-1 {
   font-size: 1rem;
