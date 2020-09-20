@@ -6,11 +6,16 @@
   border-radius: 20%;
   padding: 30px 20px;
   color: $gray-200;
+  transition: 0.3s ease;
 
   &.active {
     border-color: $blue;
     color: $turquoise;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+
+  &:hover {
+    border-color: $dark-blue;
   }
 
   .icon {

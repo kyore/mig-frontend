@@ -96,11 +96,15 @@
   border-radius: 20%;
   padding: 30px 20px;
   color: #CFCFCF;
+  transition: 0.3s ease;
 }
 .btn-icon.active {
   border-color: #005F7E;
   color: #00839A;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.btn-icon:hover {
+  border-color: #002855;
 }
 .btn-icon .icon {
   font-size: 100px;
