@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+<div class="container">
+  <section class="nautilus">
+    <div
+      style="background: url('http://i.kinja-img.com/gawker-media/image/upload/s--vl1wPe4w--/c_scale,fl_progressive,q_80,w_800/18ioy0rbeb5dxjpg.jpg') center center / cover no-repeat "></div>
+
+    <div
+      style="background: url('https://hovercraftdoggy.files.wordpress.com/2012/04/tumblr_lwbkwwuxjo1qdixcio2_1280.jpg') center center / cover no-repeat "></div>
+
+  </section>
+  <section class="back">
+    <div class="column">
+      <h1>Nautilus Slideshow</h1>
+      <h2>Click Here</h2>
+    </div>
+  </section>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    var interval = 500;
+
+    var slide;
+
+    $('section.back').click(function () {
+        var slide = $('.nautilus div:last-child').remove();
+        $('.nautilus').prepend(slide);
+    });
+</script>
+</body>
+</html>

@@ -2,13 +2,15 @@
 @import "mvariables";
 @import "mborders.scss";
 @import "mtypes";
-@import "icons";
+@import "buttons";
 
 $font-family-sans-serif: 'DinPro', sans-serif;
 $font-family-base: $font-family-sans-serif;
 $body-bg: $gray-100;
+$paragraph-margin-bottom: 0.5rem;
+$secondary: $turquoise;
 
-$secondary: $dark-blue;
+
 
 // Navbar
 $navbar-padding-y: 1rem;

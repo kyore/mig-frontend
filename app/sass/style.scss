@@ -1,3 +1,4 @@
+@import "mvariables";
 // Header
 // ************
 
@@ -42,6 +43,39 @@
 
   .swiper-pagination-bullet-active {
     opacity: 1;
+  }
+}
+
+// Content
+.about-img {
+  padding-bottom: 70px;
+  position: relative;
+
+
+  .back-image {
+    position: absolute;
+    width: $about-img-width;
+    height: $about-img-height;
+    bottom: 0;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .front-image {
+    width: $about-img-width;
+    height: $about-img-height;
+    margin-left: 15%;
+    padding: 3%;
+    background-color: #ffffff;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
