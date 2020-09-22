@@ -1,4 +1,4 @@
-@import "mvariables";
+@import "variables";
 // Header
 // ************
 
@@ -24,6 +24,14 @@
 
 
 // Swiper
+$swiper-pagination-bullet-width: 12px;
+$swiper-pagination-bullet-height: 12px;
+
+.swiper-pagination-bullet {
+  width: $swiper-pagination-bullet-width;
+  height: $swiper-pagination-bullet-height;
+}
+
 .hero-swipier {
   width: 100%;
   height: 500px;
@@ -33,8 +41,6 @@
   }
 
   .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
     display: inline-block;
     border-radius: 100%;
     background: #ffffff;
@@ -43,6 +49,28 @@
 
   .swiper-pagination-bullet-active {
     opacity: 1;
+  }
+}
+
+.news-swiper {
+  padding: 20px;
+
+  .swiper-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .swiper-pagination-bullets {
+    bottom: 0;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: transparent;
+    opacity: 1;
+    border: 1px solid $blue;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: $blue;
   }
 }
 

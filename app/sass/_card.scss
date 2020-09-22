@@ -1,0 +1,13 @@
+@import "variables";
+
+$card-spacer-y: 0;
+$card-border-color: transparent;
+
+.card {
+  border-radius: 10rem;
+  box-shadow: $box-shadow;
+}
+
+.card-title {
+  text-transform: uppercase;
+}

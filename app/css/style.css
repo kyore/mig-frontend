@@ -13,6 +13,11 @@
   background-color: #ffffff;
 }
 
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
 .hero-swipier {
   width: 100%;
   height: 500px;
@@ -21,8 +26,6 @@
   width: 100%;
 }
 .hero-swipier .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
   display: inline-block;
   border-radius: 100%;
   background: #ffffff;
@@ -30,6 +33,24 @@
 }
 .hero-swipier .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+.news-swiper {
+  padding: 20px;
+}
+.news-swiper .swiper-wrapper {
+  margin-bottom: 20px;
+}
+.news-swiper .swiper-pagination-bullets {
+  bottom: 0;
+}
+.news-swiper .swiper-pagination-bullet {
+  background-color: transparent;
+  opacity: 1;
+  border: 1px solid #005F7E;
+}
+.news-swiper .swiper-pagination-bullet-active {
+  background-color: #005F7E;
 }
 
 .about-img {

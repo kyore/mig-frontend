@@ -1,27 +1,15 @@
 @import "fonts";
-@import "mvariables";
+@import "variables";
 @import "mborders.scss";
 @import "mtypes";
 @import "buttons";
-
-$font-family-sans-serif: 'DinPro', sans-serif;
-$font-family-base: $font-family-sans-serif;
-$body-bg: $gray-100;
-$paragraph-margin-bottom: 0.5rem;
-$secondary: $turquoise;
-
-
-
-// Navbar
-$navbar-padding-y: 1rem;
-$navbar-padding-x: 2rem;
+@import "card";
 
 .navbar-nav {
   .active {
     border-bottom: 3px solid $blue;
   }
 }
-
 
 .navbar-nav-svg {
   display: inline-block;
