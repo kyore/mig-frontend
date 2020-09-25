@@ -16,7 +16,7 @@
 .bottom-nav {
   text-transform: uppercase;
   font-size: 15px;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 // End Header
@@ -43,7 +43,7 @@ $swiper-pagination-bullet-height: 12px;
   .swiper-pagination-bullet {
     display: inline-block;
     border-radius: 100%;
-    background: #ffffff;
+    background: $white;
     opacity: 0.7;
   }
 
@@ -75,6 +75,22 @@ $swiper-pagination-bullet-height: 12px;
 }
 
 // Content
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.parallax {
+  width: 100%;
+  min-height: 400px;
+  background-color: $blue;
+  color: $white;
+  clip-path: polygon(0% 0, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0% 95%);
+}
+
+$about-img-width: 450px;
+$about-img-height: 284px;
+
 .about-img {
   padding-bottom: 70px;
   position: relative;
@@ -107,10 +123,102 @@ $swiper-pagination-bullet-height: 12px;
   }
 }
 
+.about-us {
+  display: flex;
+  height: 476px;
+  align-items: center;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .quote {
+    font-size: 2.5rem;
+  }
+
+  .counter-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .counter {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 2rem 2rem 2rem;
+
+    i {
+      font-size: 2.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h5 {
+      font-weight: 400;
+    }
+  }
+}
+
+.feedback-swiper {
+  //overflow: inherit;
+}
+
+.feedback-card {
+  position: relative;
+  z-index: 3;
+  padding: 2rem;
+  font-weight: 300;
+  background-color: #EDEDED;
+  color: $blue;
+  border-radius: 7px;
+
+  .autor-image {
+    z-index: 5;
+    left: 2rem;
+    top: -40px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #EDEDED;
+    box-shadow: 4px 0 3px #EDEDED;
+  }
+}
+
 @media (max-width: 768px) {
-  .swiper-container {
+  .hero-swiper .swiper-container {
     height: 250px;
   }
+
+  .about-us {
+    height: auto;
+
+    .counter-container {
+      margin-top: 20px;
+    }
+
+    .counter {
+      padding: 10px;
+
+      i, h1 {
+        font-size: 1.5rem;
+      }
+
+      h5 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  .about-img {
+    .front-image, .back-image {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
 }
 
 

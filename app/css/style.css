@@ -10,7 +10,7 @@
 .bottom-nav {
   text-transform: uppercase;
   font-size: 15px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .swiper-pagination-bullet {
@@ -28,7 +28,7 @@
 .hero-swipier .swiper-pagination-bullet {
   display: inline-block;
   border-radius: 100%;
-  background: #ffffff;
+  background: #fff;
   opacity: 0.7;
 }
 .hero-swipier .swiper-pagination-bullet-active {
@@ -53,6 +53,19 @@
   background-color: #005F7E;
 }
 
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.parallax {
+  width: 100%;
+  min-height: 400px;
+  background-color: #005F7E;
+  color: #fff;
+  clip-path: polygon(0% 0, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0% 95%);
+}
+
 .about-img {
   padding-bottom: 70px;
   position: relative;
@@ -60,7 +73,7 @@
 .about-img .back-image {
   position: absolute;
   width: 450px;
-  height: 270px;
+  height: 284px;
   bottom: 0;
 }
 .about-img .back-image img {
@@ -69,7 +82,7 @@
 }
 .about-img .front-image {
   width: 450px;
-  height: 270px;
+  height: 284px;
   margin-left: 15%;
   padding: 3%;
   background-color: #ffffff;
@@ -80,9 +93,82 @@
   height: 100%;
 }
 
+.about-us {
+  display: flex;
+  height: 476px;
+  align-items: center;
+}
+.about-us h1 {
+  font-weight: 700;
+}
+.about-us .quote {
+  font-size: 2.5rem;
+}
+.about-us .counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-us .counter {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 2rem 2rem 2rem;
+}
+.about-us .counter i {
+  font-size: 2.5rem;
+}
+.about-us .counter h1 {
+  font-size: 3rem;
+}
+.about-us .counter h5 {
+  font-weight: 400;
+}
+
+.feedback-card {
+  position: relative;
+  z-index: 3;
+  padding: 2rem;
+  font-weight: 300;
+  background-color: #EDEDED;
+  color: #005F7E;
+  border-radius: 7px;
+}
+.feedback-card .autor-image {
+  z-index: 5;
+  left: 2rem;
+  top: -40px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #EDEDED;
+  box-shadow: 4px 0 3px #EDEDED;
+}
+
 @media (max-width: 768px) {
-  .swiper-container {
+  .hero-swiper .swiper-container {
     height: 250px;
+  }
+
+  .about-us {
+    height: auto;
+  }
+  .about-us .counter-container {
+    margin-top: 20px;
+  }
+  .about-us .counter {
+    padding: 10px;
+  }
+  .about-us .counter i, .about-us .counter h1 {
+    font-size: 1.5rem;
+  }
+  .about-us .counter h5 {
+    font-size: 1.3rem;
+  }
+
+  .about-img .front-image, .about-img .back-image {
+    width: 100%;
+    height: 100%;
   }
 }
 body {

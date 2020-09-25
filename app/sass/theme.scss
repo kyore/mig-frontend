@@ -18,5 +18,9 @@
   vertical-align: text-top;
 }
 
+$theme-colors: (
+  "white": $white
+);
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

@@ -23,7 +23,7 @@ $btn-border-radius-lg: 50rem;
 $btn-border-radius-sm: 0.5rem;
 
 .btn-icon {
-  background-color: #ffffff;
+  background-color: $white;
   border: 7px solid $gray-200;
   border-radius: 20%;
   padding: 30px 20px;
@@ -44,6 +44,12 @@ $btn-border-radius-sm: 0.5rem;
     font-size: 100px;
   }
 }
+
+//.btn-white {
+//  color: $turquoise !important;
+//  background-color: $white;
+//  border-color: $white;
+//}
 
 
 @media (max-width: 992px) {
