@@ -187,6 +187,10 @@ section {
   filter: grayscale(100%);
 }
 
+.footer .container-fluid {
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .hero-swiper {
     height: 250px;

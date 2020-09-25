@@ -233,6 +233,12 @@ $about-img-height: 284px;
   }
 }
 
+.footer {
+  .container-fluid {
+    padding: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-swiper {
     height: 250px;
