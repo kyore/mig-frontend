@@ -52,7 +52,7 @@ $swiper-pagination-bullet-height: 12px;
   }
 }
 
-.news-swiper {
+.news-swiper, .feedback-swiper {
   padding: 20px;
 
   .swiper-wrapper {
@@ -162,7 +162,7 @@ $about-img-height: 284px;
 }
 
 .feedback-swiper {
-  //overflow: inherit;
+  padding-top: 40px;
 }
 
 .feedback-card {
@@ -188,7 +188,7 @@ $about-img-height: 284px;
 }
 
 @media (max-width: 768px) {
-  .hero-swiper .swiper-container {
+  .hero-swiper {
     height: 250px;
   }
 
