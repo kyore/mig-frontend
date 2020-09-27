@@ -39,6 +39,7 @@
 .widget-insurance-category {
   margin-top: -20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
 
@@ -59,16 +60,13 @@
     text-align: center;
     text-transform: uppercase;
 
-    :not(:last-child) {
-    }
-
     &.active {
       background-color: $blue;
       color: $white;
     }
   }
 
-  a:not(:last-child) {
+  a:not(:last-child):not(:first-child) {
     border-right: 1px solid #f5f5f5;
   }
 }
