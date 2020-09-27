@@ -87,6 +87,8 @@ $swiper-pagination-bullet-height: 12px;
   .swiper-button-prev, .swiper-button-next {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    width: initial;
+    height: initial;
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -155,10 +157,8 @@ section {
 
 .parallax {
   width: 100%;
-  min-height: 400px;
   background-color: $blue;
   color: $white;
-  clip-path: polygon(0% 0, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0% 95%);
 }
 
 $about-img-width: 450px;
@@ -349,6 +349,22 @@ $about-img-height: 284px;
     ul {
       list-style-type: none;
     }
+  }
+}
+
+
+// **** Products ****
+// ****************
+// ****Products ****
+.contact-form {
+  padding: 30px 0;
+
+  h2 {
+    font-weight: 900;
+  }
+
+  p {
+    font-weight: 300;
   }
 }
 
