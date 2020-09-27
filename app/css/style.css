@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .top-nav {
   padding: 0.8rem 3rem;
   text-transform: uppercase;
@@ -13,6 +14,42 @@
   background-color: #fff;
 }
 
+.card-date {
+  margin-bottom: 7px;
+}
+.card-date i {
+  font-size: 14px;
+  margin-right: 3px;
+}
+.card-date span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.banner {
+  min-height: 580px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner .sub-head {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.banner .head {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.banner .buttons {
+  margin-top: 20px;
+}
+.banner .buttons a {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -24,6 +61,28 @@
 }
 .hero-swiper img {
   width: 100%;
+}
+.hero-swiper .swiper-button-prev, .hero-swiper .swiper-button-next {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #fff;
+}
+.hero-swiper .swiper-button-prev:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  content: "";
+}
+.hero-swiper .swiper-button-next:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  content: "";
 }
 .hero-swiper .swiper-pagination-bullet {
   display: inline-block;

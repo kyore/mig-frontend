@@ -19,8 +19,51 @@
   background-color: $white;
 }
 
+.card-date {
+  margin-bottom: 7px;
+
+  i {
+    font-size: 14px;
+    margin-right: 3px;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
 // End Header
 // ************
+
+// Banner
+.banner {
+  min-height: 580px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: $white;
+  text-transform: uppercase;
+
+  .sub-head {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .head {
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+
+  .buttons {
+    margin-top: 20px;
+
+    a {
+      padding-top: 0.7rem;
+      padding-bottom: 0.7rem;
+    }
+  }
+}
 
 
 // Swiper
@@ -38,6 +81,36 @@ $swiper-pagination-bullet-height: 12px;
 
   img {
     width: 100%;
+  }
+
+  //noinspection ALL
+  .swiper-button-prev, .swiper-button-next {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: $white;
+  }
+
+  .swiper-button-prev {
+    &:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 25px;
+      content: "\f053";
+    }
+  }
+
+  .swiper-button-next {
+    &:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 25px;
+      content: "\f054";;
+    }
   }
 
   .swiper-pagination-bullet {

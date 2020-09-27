@@ -1,0 +1,74 @@
+@import "variables";
+
+.widget-insurance {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: 0.3s linear;
+  padding: 20px;
+
+  &.active {
+    box-shadow: $box-shadow;
+    background-color: $white;
+  }
+
+  &:hover {
+    box-shadow: $box-shadow;
+    background-color: $white;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-transform: initial;
+    font-weight: 700;
+    text-align: left;
+    padding: 0;
+
+    &:hover {
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }
+}
+
+.widget-insurance-category {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 90px;
+    color: $black;
+    background-color: $white;
+    text-align: center;
+    text-transform: uppercase;
+
+    :not(:last-child) {
+    }
+
+    &.active {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+
+  a:not(:last-child) {
+    border-right: 1px solid #f5f5f5;
+  }
+}
