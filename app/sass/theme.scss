@@ -19,6 +19,18 @@
   vertical-align: text-top;
 }
 
+.nav-pills .nav-link {
+  padding: 1.5rem;
+  font-weight: 700;
+  background-color: #e6e6e6;
+}
+
+// Tables
+.table th {
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
 $theme-colors: (
   "white": $white,
   "brown": $brown,

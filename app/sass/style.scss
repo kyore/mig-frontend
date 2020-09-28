@@ -1,4 +1,5 @@
 @import "variables";
+@import "swipers";
 // Header
 // ************
 
@@ -65,89 +66,6 @@
   }
 }
 
-
-// Swiper
-$swiper-pagination-bullet-width: 12px;
-$swiper-pagination-bullet-height: 12px;
-
-.swiper-pagination-bullet {
-  width: $swiper-pagination-bullet-width;
-  height: $swiper-pagination-bullet-height;
-}
-
-.hero-swiper {
-  width: 100%;
-  height: 500px;
-
-  img {
-    width: 100%;
-  }
-
-  //noinspection ALL
-  .swiper-button-prev, .swiper-button-next {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    width: initial;
-    height: initial;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    color: $white;
-  }
-
-  .swiper-button-prev {
-    &:after {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      font-size: 25px;
-      content: "\f053";
-    }
-  }
-
-  .swiper-button-next {
-    &:after {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      font-size: 25px;
-      content: "\f054";;
-    }
-  }
-
-  .swiper-pagination-bullet {
-    display: inline-block;
-    border-radius: 100%;
-    background: $white;
-    opacity: 0.7;
-  }
-
-  .swiper-pagination-bullet-active {
-    opacity: 1;
-  }
-}
-
-.news-swiper, .feedback-swiper {
-  padding: 20px;
-
-  .swiper-wrapper {
-    margin-bottom: 20px;
-  }
-
-  .swiper-pagination-bullets {
-    bottom: 0;
-  }
-
-  .swiper-pagination-bullet {
-    background-color: transparent;
-    opacity: 1;
-    border: 1px solid $blue;
-  }
-
-  .swiper-pagination-bullet-active {
-    background-color: $blue;
-  }
-}
 
 // Content
 section {
@@ -234,9 +152,6 @@ $about-img-height: 284px;
   }
 }
 
-.feedback-swiper {
-  padding-top: 40px;
-}
 
 .feedback-card {
   position: relative;
@@ -246,6 +161,7 @@ $about-img-height: 284px;
   background-color: #EDEDED;
   color: $blue;
   border-radius: 7px;
+
 
   .autor-image {
     z-index: 5;
@@ -257,6 +173,16 @@ $about-img-height: 284px;
     border-radius: 50%;
     border: 3px solid #EDEDED;
     box-shadow: 4px 0 3px #EDEDED;
+  }
+
+  &.no-bg {
+    background-color: transparent;
+    color: $white;
+
+    .autor-image {
+      border: none;
+      box-shadow: none;
+    }
   }
 }
 
@@ -421,6 +347,26 @@ $about-img-height: 284px;
     }
   }
 }
+
+// **** Contact Us ****
+// ****************
+// **** Contact Us ****
+.contact-address {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.parallax-banner {
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $white;
+  width: 100%;
+  min-height: 402px;
+}
+
 
 .breadcrumb-container {
   background-color: $breadcrumb-bg;

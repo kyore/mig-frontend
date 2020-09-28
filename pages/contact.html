@@ -109,258 +109,93 @@
   </nav>
 </header>
 
-<!-- Slider main container -->
-<div class="swiper-container hero-swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">
-      <img
-        src="https://images.unsplash.com/photo-1533204515132-035bc8d4128c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-        alt="">
-    </div>
-    <div class="swiper-slide"><img
-      src="https://images.unsplash.com/photo-1532219362275-a1cbe9dc3602?ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80"
-      alt=""></div>
-    <div class="swiper-slide"><img
-      src="https://images.unsplash.com/photo-1560632835-73eac2c81f6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
-      alt=""></div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-prev"></div>
-  <div class="swiper-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
+<div class="parallax-banner">
+  <h1 class="mborder__bottom_gray">Холбоо барих</h1>
 </div>
 
-<section>
-  <div class="container">
-    <h1 class="mhead mborder__bottom">
-      Танд санал болгож буй <br> даатгалын саналууд
-    </h1>
+<div class="container">
+  <div class="widget-contact">
+    <div class="box">
+      <i class="fas fa-phone-square-alt"></i>
+      <span>+976 7575 6000</span>
+    </div>
+    <div class="box">
+      <i class="fas fa-envelope-square"></i>
+      <span>info@mig.mn</span>
+    </div>
+    <div class="box">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>ТӨВ КОМПАНИ: Улаанбаатар хот Сүхбаатар дүүрэг, 1-р хороо, 13-р хороолол, Олимпийн гудамж, Дугаар 39, G Center, 3,4 давхар, МИГ Даатгал</span>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="contact-address">
     <div class="row">
       <div class="col-md-12">
-        <nav class="my-4">
-          <div class="nav justify-content-between" id="nav-tab" role="tablist">
-            <a class="btn-icon active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-               aria-controls="nav-home" aria-selected="true"><i class="icon icon-aylal"></i></a>
-            <a class="btn-icon" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-               aria-controls="nav-profile" aria-selected="false">
-              <i class="icon icon-aylal"></i>
-            </a>
-            <a class="btn-icon" id="nav-contact-ta" data-toggle="tab" href="#nav-contact" role="tab"
-               aria-controls="nav-contact" aria-selected="false"><i class="icon icon-aylal"></i></a>
-            <a class="btn-icon" id="nav-contact-tb" data-toggle="tab" href="#nav-contact" role="tab"
-               aria-controls="nav-contact" aria-selected="false"><i class="icon icon-aylal"></i></a>
-            <a class="btn-icon" id="nav-contact-ab" data-toggle="tab" href="#nav-contact" role="tab"
-               aria-controls="nav-contact" aria-selected="false"><i class="icon icon-aylal"></i></a>
+        <ul class="nav nav-pills mb-5" id="contact-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="contact-ub-tab" data-toggle="pill" href="#contact-ub" role="tab"
+               aria-controls="contact-ub" aria-selected="true">УЛААНБААТАР ХОТ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-oronnutag-tab" data-toggle="pill" href="#contact-oronnutag" role="tab"
+               aria-controls="contact-oronnutag" aria-selected="false">ОРОН НУТГИЙН САЛБАРУУД</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="contact-tabContent">
+          <div class="tab-pane fade show active" id="contact-ub" role="tabpanel" aria-labelledby="contact-ub-tab">
+            <table class="table">
+              <thead>
+              <tr>
+                <th>Салбар</th>
+                <th style="width: 40%">Хаяг</th>
+                <th>Утас</th>
+                <th>И-мэйл хаяг</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Төв компани</td>
+                <td>Улаанбаатар хот Сүхбаатар дүүрэг, 1-р хороо, 13-р хороолол, Олимпийн гудамж, Дугаар 39,
+                  G Center, 3,4 давхар, МИГ Даатгал
+                </td>
+                <td>7575-6000</td>
+                <td>info@mig.mn</td>
+              </tr>
+              <tr>
+                <td>Нөхөн төлбөрийн алба</td>
+                <td>Улаанбаатар хот Сүхбаатар дүүрэг, 1-р хороо, 13-р хороолол, Олимпийн гудамж, Дугаар 39,
+                  G Center, 3,4 давхар, МИГ Даатгал
+                </td>
+                <td>7575-6000</td>
+                <td>claim@mig.mn</td>
+              </tr>
+              <tr>
+                <td>УБ6</td>
+                <td>Улаанбаатар хот, Сүхбаатар дүүрэг, 3-хороо 5-р хороолол ус3-41 тоот</td>
+                <td>7575-6000</td>
+                <td>info@mig.mn</td>
+              </tr>
+              </tbody>
+            </table>
           </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <div class="row">
-              <div class="col-md-6">
-                <h2 class="mhead mborder__left">Тээврийн <br> хэрэгслийн даатгал</h2>
-                <div class="my-3">
-                  <p class="mbody-1">Nullam ac sem sit amet mi eleifend gravida id vel libero. Sed sit amet nibh
-                    mauris.
-                    Nullam ultrices libero nec viverra.</p>
-                  <p>Nam finibus eleifend mauris vi1tae feugiat. Proin tempor ipsum at orci molestie, blandit rutrum
-                    purus
-                    feugiat. Aenean ac aliquam orci. Pellentesque lacinia quam ipsum. Proin tristique metus et tortor
-                    cursus consectetur condimentum id ex. Sed auctor interdum dolor, a rhoncus arcu pretium non.
-                    Nullam
-                    ac
-                    sem sit amet mi eleifend gravida id vel libero. Sed sit amet nibh mauris. Nullam ultrices libero
-                    nec
-                    diam dapibus viverra.</p>
-                </div>
-                <button class="btn btn-secondary btn-lg">Дэлгэрэнгүй</button>
-              </div>
-              <div class="col-md-6 d-none d-md-block">
-                <div class="about-img">
-                  <div class="back-image">
-                    <img src="../app/img/homeCar.jpeg" alt="">
-                  </div>
-                  <div class="front-image">
-                    <img src="../app/img/homedriving.jpeg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Hello</div>
+          <div class="tab-pane fade" id="contact-oronnutag" role="tabpanel"
+               aria-labelledby="contact-oronnutag-tab"></div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="bg-white">
+<div class="parallax p-5 bg-brown">
   <div class="container">
-    <h1 class="mhead mborder__bottom">Мэдээ мэдээлэл</h1>
     <div class="row">
-      <div class="col-md-12">
-        <div class="swiper-container news-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <img class="card-img-top" src="../app/img/people-meeting.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <div class="card-date">
-                    <i class="far fa-clock"></i>
-                    <span>2020-06-02</span>
-                  </div>
-                  <h5 class="card-title">Даатгалын мэргэжилтэн</h5>
-                  <p class="card-text">Даатгалын мэргэжилтэнд тавигдах шаардлага, ур чадварын чиг хандлагыг тодорхойлох
-                    нь</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-        <div class="d-flex mt-5 justify-content-center">
-          <button class="btn btn-outline-secondary">Бүгдийг үзэх</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="parallax triangle-bottom">
-  <div class="about-us">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="quote">
-            <i class="fas fa-quote-left"></i>
-          </div>
-          <h1>БИДНИЙ ТУХАЙ</h1>
-          <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining</p>
-          <button class="btn btn-white btn-lg text-primary">Дэлгэрэнгүй</button>
-        </div>
-        <div class="col-md-6">
-          <div class="counter-container">
-            <div class="counter border-bottom">
-              <i class="far fa-user"></i>
-              <h1>30,000</h1>
-              <h5>ХЭРЭГЛЭГЧ</h5>
-            </div>
-            <div class="counter border-left border-bottom">
-              <i class="far fa-user"></i>
-              <h1>30,000</h1>
-              <h5>ХЭРЭГЛЭГЧ</h5>
-            </div>
-            <div class="counter border-right border-top pt-3">
-              <i class="far fa-user"></i>
-              <h1>30,000</h1>
-              <h5>ХЭРЭГЛЭГЧ</h5>
-            </div>
-            <div class="counter border-top pt-3">
-              <i class="far fa-user"></i>
-              <h1>30,000</h1>
-              <h5>ХЭРЭГЛЭГЧ</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="user-feedback">
-  <div class="container">
-    <h4 class="mhead-2">ХЭРЭГЛЭГЧДИЙН</h4>
-    <h1 class="mhead mborder__bottom">Санал сэтгэгдэл</h1>
-    <div class="row">
-      <div class="col-md-12 mt-4">
+      <div class="col-md-6">
         <div class="swiper-container feedback-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -375,7 +210,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -390,7 +225,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -405,7 +240,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -420,7 +255,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -435,7 +270,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="feedback-card">
+              <div class="feedback-card no-bg">
                 <img src="../app/img/timcook.jpg" alt="" class="autor-image">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam aliquid animi aspernatur,
                   commodi corporis debitis dolor dolorem facere, ipsam nesciunt odio quasi sequi tempora temporibus
@@ -450,31 +285,33 @@
               </div>
             </div>
           </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
+          <!--Navigation buttons-->
+          <div class="swiper-prev"></div>
+          <div class="swiper-next"></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="subscribe">
-  <div class="container">
-    <div class="row align-items-center">
       <div class="col-md-6">
-        <h1>Цаг алдалгүй мэдээлэл авахыг хүсвэл</h1>
-      </div>
-      <div class="col-md-6">
-        <div class="input-group mb-3 subscribe-form">
-          <input type="text" class="form-control" placeholder="Өөрийн э-шуудан хаягаа бичнэ үү">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button">Илгээх</button>
+        <h4>САНАЛ ХҮСЭЛТ ИЛГЭЭХ</h4>
+        <form action="">
+          <div class="form-group">
+            <input type="text" placeholder="Нэр" class="form-control">
           </div>
-        </div>
+          <div class="form-group">
+            <input type="text" placeholder="Утас" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="И-мэйл" class="form-control">
+          </div>
+          <div class="form-group">
+            <textarea cols="30" rows="5" placeholder="Санал хүсэлт" class="form-control"></textarea>
+          </div>
+          <button class="btn btn-outline-white btn-block rounded">Илгээх</button>
+        </form>
       </div>
     </div>
   </div>
-</section>
+</div>
+
 <section class="pb-0">
   <h1 class="mhead mborder__bottom">Хамтрагч байгууллагууд</h1>
 
@@ -506,7 +343,6 @@
     </div>
   </div>
 </section>
-
 <footer class="footer">
   <div class="container-fluid">
     <div class="row">
@@ -540,7 +376,6 @@
                 </a>
               </div>
             </div>
-
             <div class="footer-box social-icons">
               <h4>Сошиал холбоосууд</h4>
               <a href="">
@@ -630,66 +465,13 @@
 <script src="../app/js/main.js"></script>
 
 <script>
-    new Swiper('.hero-swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        // Navigation arrows
+    new Swiper('.feedback-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
         navigation: {
             nextEl: '.swiper-next',
             prevEl: '.swiper-prev',
         },
-    });
-
-    new Swiper('.news-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 40,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 50,
-            },
-        }
-    });
-
-    new Swiper('.feedback-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: 2,
-                spaceBetween: 30,
-            },
-        }
     });
 
     new Swiper('.sponsor-swiper', {
@@ -718,5 +500,4 @@
     })
 </script>
 </body>
-
 </html>
