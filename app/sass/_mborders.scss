@@ -1,4 +1,6 @@
-.mborder { border: $mborder-width solid $mborder-color; }
+.mborder {
+  border: $mborder-width solid $mborder-color;
+}
 
 .mborder__bottom {
   &:after {
@@ -8,6 +10,17 @@
     width: 70px;
     padding-top: 10px;
     border-bottom: $mborder-width solid $mborder-color;
+  }
+}
+
+.mborder__bottom_gray {
+  &:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    padding-top: 10px;
+    border-bottom: $mborder-width solid $brown;
   }
 }
 
