@@ -416,6 +416,66 @@ section {
   border-bottom: 0;
 }
 
+.claim-header {
+  padding-left: 50px;
+  display: flex;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  background-color: #00839A;
+}
+.claim-header .header-order {
+  position: absolute;
+  left: -30px;
+  right: auto;
+  padding-top: 4px;
+  text-align: center;
+  font-size: 2.1rem;
+  background-color: #005F7E;
+  width: 55px;
+  height: 60px;
+  transform: skew(160deg);
+}
+.claim-header .header-text {
+  margin-bottom: 0;
+  padding: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.claim-card .card-image {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background-color: #005F7E;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.claim-card .card-image .card-order {
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  background-color: #D2BE81;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.claim-card .card-image img {
+  border-radius: 0 10px 10px 10px;
+  width: 100%;
+  height: auto;
+}
+.claim-card .card-body {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #005F7E;
+  text-align: center;
+  padding: 10px;
+}
+
 .breadcrumb-container {
   background-color: #f3f3f3;
   border-bottom: 1px solid #d7d7d7;

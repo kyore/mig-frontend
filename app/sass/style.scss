@@ -394,8 +394,79 @@ $about-img-height: 284px;
       }
     }
   }
+
   .menu-item:not(:last-child) {
     border-bottom: 0;
+  }
+}
+
+// **** Claim ****
+// ****************
+// **** Claim ****
+.claim-header {
+  padding-left: 50px;
+  display: flex;
+  position: relative;
+  color: $white;
+  align-items: center;
+  background-color: $turquoise;
+
+
+  .header-order {
+    position: absolute;
+    left: -30px;
+    right: auto;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 2.1rem;
+    background-color: $blue;
+    width: 55px;
+    height: 60px;
+    transform: skew(160deg);
+  }
+
+  .header-text {
+    margin-bottom: 0;
+    padding: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+}
+
+.claim-card {
+  .card-image {
+    position: relative;
+    color: $white;
+    text-align: center;
+    background-color: $blue;
+    border-radius: 10px;
+    padding-bottom: 5px;
+
+    .card-order {
+      width: 30px;
+      height: 30px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      background-color: #D2BE81;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+
+    img {
+      border-radius: 0 10px 10px 10px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .card-body {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $blue;
+    text-align: center;
+    padding: 10px;
   }
 }
 
